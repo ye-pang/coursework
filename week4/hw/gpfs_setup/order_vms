@@ -1,3 +1,6 @@
 slcli vs create --hostname=gpfs1 --domain=W251-YP.cloud --cpu=2 --memory=4096 --disk=25 --disk=25 --os=REDHAT_6_64 --datacenter=sjc01 --billing=hourly --public --key=kp_mac
 slcli vs create --hostname=gpfs2 --domain=W251-YP.cloud --cpu=2 --memory=4096 --disk=25 --disk=25 --os=REDHAT_6_64 --datacenter=sjc01 --billing=hourly --public --key=kp_mac
 slcli vs create --hostname=gpfs3 --domain=W251-YP.cloud --cpu=2 --memory=4096 --disk=25 --disk=25 --os=REDHAT_6_64 --datacenter=sjc01 --billing=hourly --public --key=kp_mac
+
+uname -r returns:
+2.6.32-696.23.1.el6.x86_64
